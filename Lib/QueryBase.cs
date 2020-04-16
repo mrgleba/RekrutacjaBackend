@@ -104,6 +104,7 @@ namespace Weles
 
         public abstract void DeclareDecimal(out decimal? x);
         public abstract void DeclareString(out string? x);
+        public abstract void DeclareInt(out int? x);
         public abstract void Suspend();
         public abstract int RowCount { get; }
     }
